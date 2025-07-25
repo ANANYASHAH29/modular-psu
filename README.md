@@ -72,7 +72,8 @@ It can also cause issues with syntax highlighting and script execution.
 * Alternate Approach: To ensure broader compatibility and clearer syntax, prefer the standard do ... done block structure:
 
 i=0
-while (( i++ < 10 )); do
+while (( i++ < 10 ))
+do
  echo "i is $i"
 done
 
